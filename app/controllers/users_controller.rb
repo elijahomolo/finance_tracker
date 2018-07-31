@@ -6,6 +6,10 @@ class UsersController < ApplicationController
   end
 
   def my_friends
-  end 
+  end
+
+  def search
+
+  end
 
 end
