@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   root 'users#my_portfolio'
   resources :user_stocks, only: [:create]
   resources :user_stocks, only: [:create, :destroy]
+  resources :users, only: [:show]
+  resources :friendships
 end
